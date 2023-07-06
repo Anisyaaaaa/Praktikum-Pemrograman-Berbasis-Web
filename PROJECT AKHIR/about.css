@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+  height: 100vh;
+  overflow: scroll;
+}
+li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+a:hover{
+  color: brown;
+}
+header{
+  position: relative;
+  padding: 2rem 2rem;
+  z-index: 111;
+}
+.navigasi{
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigasi .logo a{
+  font-size: 30px;
+  font-weight: bold;
+  color: grey;
+}
+.navigasi .link{
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  gap: 2rem;
+}
+.navigasi .toggle{
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+.login{
+  background-color: orange;
+  color: white;
+  padding: 7px 10px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale .2 ease;
+}
+.login:hover{
+  scale: 1.05;
+  color: white;
+}
+.login:active{
+  scale: 0.95;
+}
+/* dropdown */
+.menu-dropdown{
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  height: 0;
+  width: 300px;
+  background: rgba(253, 214, 84, 0.548);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.menu-dropdown.buka {
+  height: 240px;
+}
+.menu-dropdown li{
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-dropdown .login{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* responsive */
+@media(max-width: 992px){
+  .navigasi .link,
+  .navigasi .login {
+      display: none;
+  }
+
+  .navigasi .toggle{
+      display: block;
+  }
+
+  .menu-dropdown{
+      display: block;
+  }
+}
+@media(max-width: 576px){
+  .menu-dropdown{
+      left: 2rem;
+      width: unset;
+  }
+}
+/* .desc {
+  position: relative;
+  padding: 5px;
+  margin-right: 160px;
+  text-align: right;
+}
+.about-1{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.about-1 .about-2{
+  margin-top: 40px;
+  background: linear-gradient(45deg, rgb(252, 116, 74), rgb(247, 239, 140));
+  box-shadow: 2px 2px 3px black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15%;
+  width: 450px;
+  margin-left: 100px;
+  transition: scale .5 ease;
+} 
+.about-1 .about-2:hover{
+  scale: 1.05;
+}
+.about-1 .about-2 img{
+  height: 15rem;
+  width: 15.5rem;
+  margin-bottom: .5rem;
+  border-radius: 50%;
+}
+.about-1 .about-2 h3{
+  font-size: 30px;
+  color: black;
+  padding: 0.5rem;
+}  
+.about-1 .about-2 .about-judul{
+  font-size: 25px;
+  color: white;
+}
+.about h4 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(243, 149, 73);
+  padding: 1.2rem 0;
+}
+hr {
+  height: 5px;
+  width: 600px;
+  background: linear-gradient(45deg, rgb(252, 116, 74), rgb(247, 239, 140));
+  border-radius: 5px;
+  border: none;
+  margin: auto;
+} */
+

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    height: 100vh;
+}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    color: orange;
+}
+/* header */
+header{
+    position: relative;
+    padding: 2rem 2rem;
+    z-index: 111;
+}
+.navigasi{
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigasi .logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: grey;
+}
+.navigasi .link{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    gap: 2rem;
+}
+.navigasi .toggle{
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.login{
+    background-color: orange;
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale .2 ease;
+}
+.login:hover{
+    scale: 1.05;
+    color: white;
+}
+.login:active{
+    scale: 0.95;
+}
+/* dropdown */
+.menu-dropdown{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(253, 214, 84, 0.548);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.menu-dropdown.buka {
+    height: 240px;
+}
+.menu-dropdown li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-dropdown .login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* responsive */
+@media(max-width: 992px){
+    .navigasi .link,
+    .navigasi .login {
+        display: none;
+    }
+
+    .navigasi .toggle{
+        display: block;
+    }
+
+    .menu-dropdown{
+        display: block;
+    }
+}
+@media(max-width: 576px){
+    .menu-dropdown{
+        left: 2rem;
+        width: unset;
+    }
+}
+
+/* .card-title {
+    font-weight: bolder;
+    text-align: center;
+}
+.col-3 .card {
+    width: 100%;
+}
+.about h4 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(243, 149, 73);
+    padding: 1.2rem 0;
+}
+hr {
+    height: 5px;
+    width: 600px;
+    background: linear-gradient(45deg, rgb(252, 116, 74), rgb(247, 239, 140));
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+    opacity: 1;
+  }
+.card img {
+    box-shadow: 2px 2px 8px black;
+  }
+  .row .col-3 {
+    margin-bottom: 20px;
+  } */

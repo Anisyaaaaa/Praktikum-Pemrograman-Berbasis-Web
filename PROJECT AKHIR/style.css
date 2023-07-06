@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    overflow: scroll;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f3f5f8;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+}
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: gray;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+b{
+    font-size: 70px;
+    color: rgb(243, 149, 73);
+}
+.navigasi{
+    display: flex;
+}
+.navigasi li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navigasi li a{
+    font-size: 25px;
+    color: grey;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navigasi li:hover a,
+.link a:hover{
+    color: rgb(218, 69, 31);
+}
+.link a{
+    font-size: 30px;
+    color: grey;
+    margin:25px 10px;
+}
+.pic img {
+    height: 15%;
+    width: 35%;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: aqua;
+    padding: 15px;
+    box-shadow: 50px;
+}
+.h1 h1{
+    text-align: center;
+    color: grey;
+    margin-top: 50px;
+}
+.paragraf1 {
+    margin-top: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 181, 121) ;
+    outline-color:  grey;
+    padding: 1%;
+    outline-style: solid;
+    border-radius: 3%;
+}
+
+@media screen and (max-width: 600px) {
+.paragraf1 p {
+    position: absolute;
+    text-align: justify;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 158%;
+    margin-top: 4%;
+    margin-right: 30%;
+    margin-left: 2%;
+} 
+}
+
+.paragraf1 img {
+    height: 50% auto;
+    width: min(55%, 25%); 
+    margin-left: 73%; 
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 6%;
+}
+
+.paragraf1 h1 {
+    position: absolute;
+    color: grey;
+    margin-top: 1%;
+    margin-left: 20%;
+}
+
+.paragraf2 {
+    margin-top: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 181, 121) !important;
+    outline-color:  grey;
+    padding: 1%;
+    outline-style: solid;
+    border-radius: 3%;
+}
+
+.paragraf2 p {
+    position: absolute;
+    text-align: justify;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 158%;
+    margin-top: 4%;
+    margin-right: 3%;
+    margin-left: 30%;
+} 
+
+.paragraf2 img {
+    height: 50% auto;
+    width: min(55%, 25%); 
+    margin-left: 2%; 
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 6%;
+}
+
+.paragraf2 h1 {
+    position: absolute;
+    color: grey;
+    margin-top: 1%;
+    /* margin-right: 55px; */
+    margin-left: 48%;
+}
+
+.paragraf3 {
+    margin-top: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 181, 121) ;
+    outline-color:  grey;
+    padding: 1%;
+    outline-style: solid;
+    border-radius: 3%;
+}
+
+.paragraf3 p {
+    position: absolute;
+    text-align: justify;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 158% ;
+    margin-top: 4%;
+    margin-right: 30%;
+    margin-left: 2%;
+} 
+
+.paragraf3 img {
+    height: 50% auto;
+    width: min(55%, 25%); 
+    margin-left: 73%; 
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 6%;
+}
+
+.paragraf3 h1 {
+    position: absolute;
+    color: grey;
+    margin-top: 1%;
+    margin-left: 20%;
+}
+
+
+.desc {
+    position: relative;
+    padding: 5px;
+    margin-right: 160px;
+    text-align: right;
+}
+.about-1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .about-1 .about-2{
+    background: var(--bg);
+    padding: 3rem;
+    text-align: center;
+    border-radius: 79% 51% 81% 19% / 58% 93% 7% 42%;
+  }
+  
+  .about-1 .about-2:hover{
+    border-radius: .5rem;
+  }
+  
+  .about-1 .about-2 img{
+    height: 15.5rem;
+    width: 15.5rem;
+    margin-bottom: .5rem;
+    border-radius: 50%;
+  }
+  
+  .about-1 .about-2 h3{
+    font-size: 2.6rem;
+    color: black;
+    padding: 1rem 0;
+  }
+  
+  .about-1 .about-2 .about-judul{
+    font-size: 2.2rem;
+    color: var(--main);
+    padding: .5rem 0;
+  }
+  
+  .about-1 .about-2 p{
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: .5rem 0;
+  }
+  :root{
+    --main: #ff6e01;
+    --bg: #f1e1d2;
+    --black: #000;
+    --white: #fff;
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  .about h2 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(243, 149, 73);
+    /* text-transform: uppercase; */
+    padding: 1.2rem 0;
+  }
