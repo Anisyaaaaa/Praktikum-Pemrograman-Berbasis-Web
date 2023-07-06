@@ -1,0 +1,142 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image: url(wpp.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.judul {
+    font-size: 40px;
+    text-align: center;
+}
+.judul p {
+    margin-top: 47px;
+    color: black;
+    background-color: #bee7a5;
+    border-radius: 15px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.tombol{
+    margin: auto;
+    width: 570px;
+    padding: 20px 10px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.918);
+    box-shadow: 2px 4px 5px black;
+    text-align: center;
+}
+.tombol button{
+    margin-bottom: 10px;
+    width: 500px;
+    height: 80px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px black;
+    background: linear-gradient(#fff0f5, rgb(211, 202, 243));
+    cursor: pointer;
+    border: 1px solid black;
+}
+.tombol button:hover{
+    background-color: lightblue;
+}
+h3{
+    font-size: 17px;
+    text-align: center;
+    box-shadow: 2px 4px 5px black;
+    width: 570px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: rgb(211, 202, 243);
+}
+th {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.table2{
+    background-color: #bee7a5;
+    margin:auto;
+    margin-top: 35px;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-left: 510px;
+    position: absolute;
+    width: 120px;
+    font-size: 25px;
+}
+.table1{
+    background-color: #bee7a5;
+    margin:auto;
+    margin-top: 35px;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-left: 18px;
+    position: absolute;
+    width: 120px;
+    font-size: 25px;
+}
+.table3{
+    background-color: #bee7a5;
+    margin:auto;
+    margin-top: 35px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 1000px;
+    position: absolute;
+    font-size: 25px;
+}
+td{
+    padding: 10px;
+    font-weight:bold;
+}
+input, textarea{
+    font-weight:bold;
+    width:230px;
+    padding:5px;
+    border-radius:5px;
+}
+button{
+    text-align: center;
+    padding: 15px;
+    border-radius:10px;
+    font-weight:bold;
+    font-size: 18px;
+}
+button:hover{
+    text-align: center;
+    padding: 15px;
+    border-radius:10px;
+    font-weight:bold;
+    background-color: #55cd4c;
+    cursor: pointer;
+}
+.hasil{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.hasil span{
+    display: block;
+    font-size: 17px;;
+    margin-top: 10px;
+    background: linear-gradient(#fff0f5, #7acc74);
+    padding: 7px;
+    border: 1px solid rgb(63, 61, 61);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+td input {
+    font-size: 25px;
+}
+
+option {
+    font-size: 25px;
+}
