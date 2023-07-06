@@ -1,0 +1,57 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    margin-top: 60px;
+    color: black;
+}
+
+.input {
+    background-color: rgba(255, 255, 255, 0.651);
+    width: 420px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.input p {
+    font-size: 20px;
+}
+
+.input input {
+    width: 55px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button {
+    margin: 30px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.hasil {
+    background-color: rgba(255, 255, 255, 0.651);
+    width: 420px;
+    padding: 15px;
+    text-align: left;
+    border-radius: 15px;
+}
+
+.hitung {
+    background-color: palevioletred;
+    padding: 40px;
+    margin-top: 30px;
+    width: 480px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px black;
+}
+
+.judul h2 {
+    color: #997950;
+}
