@@ -1,0 +1,67 @@
+.judul table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: rgb(255, 127, 127);
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigasi a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 130px;
+    font-size: 25px;
+}
+
+.navigasi {
+    display: flex;
+    box-shadow: 2px 2px 10px rgb(58, 53, 53);
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+    height: 50px;
+    background: rgba(255, 135, 135, 0.356);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigasi ul li a:hover {
+    background-color: rgba(255, 77, 77, 0.995);
+    color: rgb(255, 242, 0);
+    opacity: 1.0;
+}
+
+.navigasi ul {
+    display: flex;
+    list-style: none;
+}
+
+.navigasi ul li a {
+    color: black;
+    margin: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 22px;
+}
+
+.medsos {
+    padding: 5px;
+    background-color: rgba(255, 0, 0, 0.934);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.medsos ul li {
+    display: inline-block;
+    color: rgb(255, 0, 0);
+    margin-right: 10px;
+}

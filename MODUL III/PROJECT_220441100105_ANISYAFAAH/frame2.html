@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styleframe.css">
+</head>
+
+<body background="wpp.webp">
+    <div class="logoo">
+        <img src="laundry1.png">
+        <h1>THE LAUNDRY</h1>
+        <p>Jl. Cempaka Timur No. 16</p>
+    </div>
+    <form action="prosessForm.php" method="post">
+
+        <fieldset>
+            <legend>
+                <h2>Data Customer Laundry</h2>
+            </legend>
+            <table>
+
+                <tr>
+                    <td>Nama Customer</td>
+                    <td>:</td>
+                    <td><input type="name" name="nama" required /><br /></td>
+                </tr>
+
+                <tr>
+                    <td>No. Telp/Hp</td>
+                    <td>:</td>
+                    <td><input type="number" name="number" required /></td>
+                </tr>
+
+                <tr>
+                    <td>Tanggal Terima</td>
+                    <td>:</td>
+                    <td><input type="date" name="tanggal" required /></td>
+                </tr>
+
+                <tr>
+                    <td>Tanggal Selesai</td>
+                    <td>:</td>
+                    <td><input type="date" name="tanggal" required /></td>
+                </tr>
+
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td><textarea name="komentar" rows="4" cols="50" required></textarea> </td>
+                </tr>
+
+                <tr>
+                    <td>Metode Pembayaran</td>
+                    <td>:</td>
+                    <td><input type="radio" name="jenisKelamin" required /> Cash
+                        <input type="radio" name="jenisKelamin" required /> Transfer
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Jenis Laundry</td>
+                    <td>:</td>
+                    <td><input type="checkbox" name="hobi" /> Laundry Kiloan </input>
+                        <input type="checkbox" name="hobi" /> Laundry Boneka </input>
+                        <input type="checkbox" name="hobi" /> Laundry Satuan </input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Banyaknya</td>
+                    <td>:</td>
+                    <td><select>
+                            <option value="<3">
+                                <3 kg</option>
+                            <option value="<5">
+                                <5 kg</option>
+                            <option value=">5">>5 kg</option>
+                            <option value="<10">
+                                <10 kg</option>
+                            <option value=">10">>10 kg</option>
+                        </select>
+                </tr>
+                <tr>
+                    <td><input type="reset" name="reset" value="RESET" /></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" value="SUBMIT" /></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+
+            </table>
+        </fieldset>
+
+    </form>
+    </div>
+
+</body>
+
+</html>
+</body>
+
+</html>
